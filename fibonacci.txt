@@ -1,0 +1,16 @@
+fMov fEax, 6 :
+fMov fEbx, 0 :
+fMov fEcx, 1 :
+fMov fEdx, 0 :
+fMov fEsi, 0 :
+fCmp fEax, fEdx :
+fMov fOffsetJmp, 16 :  
+fJmpLE fOffsetJmp :
+fMov fEsi, fEbx :
+fAdd fEsi, fEcx :
+fMov fEbx, fEcx :
+fMov fEcx, fEsi :
+fDec fEax :
+fMov fOffsetJmp, 6 :  
+fJmp fOffsetJmp :
+fPrint fEsi :
