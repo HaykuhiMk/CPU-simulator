@@ -5,7 +5,7 @@ Abstract machine architecture and specifications including CPU, ALU, RAM and CU 
 The result of the problem solved by the code written in pseudo-assembly language is not only printed on the screen, but also stored in a hardDisk text file.
 
 It is necessary to run the program in terminal or Visual Studio Code IDE with the command 
-              g++ -std=c++2a main.cpp ram.cpp cpu.cpp. 
+              g++ -std=c++2a main.cpp ram.cpp cpu.cpp 
 Then to see the result, you need to compile the 
               ./a.out 
 command.
