@@ -416,7 +416,7 @@ void CPU::start(const std::string& fName)
                 break;
             case 3:
                 std::cout << "This program calculates the sum of odd numbers from 0 to a given positive integer." << std::endl;
-                std::cout << "The imported number is 10, the factorial of which is ";
+                std::cout << "The imported number is 10, the sum of odd numbers from 0 to 10 is ";
                 break;
         }
     }
