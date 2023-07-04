@@ -7,7 +7,6 @@ The result of the problem solved by the code written in pseudo-assembly language
  ## How to Run the Program
  
 To execute the CPU-simulator program and view the results, follow the steps below:
-
 Prerequisites: Ensure that you have CMake and a compatible C++ compiler installed on your system.
 
 ### Option 1: Running with CMake
@@ -17,12 +16,16 @@ Prerequisites: Ensure that you have CMake and a compatible C++ compiler installe
 
 3.Create a new directory called "build" for out-of-source builds:
 mkdir build
+
 4.Move into the "build" directory:
 cd build
+
 5.Generate the build files using CMake:
 cmake ..
+
 6.Build the project using the following command:
 cmake --build . --config Release
+
 7.Once the build process is complete, you can run the program by entering the following command:
 ./cpu
 
