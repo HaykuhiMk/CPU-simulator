@@ -15,18 +15,23 @@ Prerequisites: Ensure that you have CMake and a compatible C++ compiler installe
 2.Navigate to the directory where you have downloaded or cloned the CPU-simulator repository.
 
 3.Create a new directory called "build" for out-of-source builds:
+
 mkdir build
 
 4.Move into the "build" directory:
+
 cd build
 
 5.Generate the build files using CMake:
+
 cmake ..
 
 6.Build the project using the following command:
+
 cmake --build . --config Release
 
 7.Once the build process is complete, you can run the program by entering the following command:
+
 ./cpu
 
 ### Option 2: Running with Manual Compilation
