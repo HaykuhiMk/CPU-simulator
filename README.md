@@ -51,3 +51,4 @@ g++ -std=c++2a main.cpp ram.cpp cpu.cpp
 Run the program by entering the following command:
 
 ./a.out
+
