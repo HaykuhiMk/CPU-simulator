@@ -17,7 +17,7 @@ Prerequisites: Ensure that you have CMake and a compatible C++ compiler installe
 3.Create a new directory called "build" for out-of-source builds:
 
 
-mkdir build
+#### mkdir build
 
 4.Move into the "build" directory:
 
