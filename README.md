@@ -22,22 +22,22 @@ Prerequisites: Ensure that you have CMake and a compatible C++ compiler installe
 4.Move into the "build" directory:
 
 
-cd build
+#### cd build
 
 5.Generate the build files using CMake:
 
 
-cmake ..
+#### cmake ..
 
 6.Build the project using the following command:
 
 
-cmake --build . --config Release
+#### cmake --build . --config Release
 
 7.Once the build process is complete, you can run the program by entering the following command:
 
 
-./cpu
+#### ./cpu
 
 ### Option 2: Running with Manual Compilation
 1.Open a terminal or command prompt.
@@ -46,9 +46,9 @@ cmake --build . --config Release
 
 3.Compile the source code files using the following command:
 
-g++ -std=c++2a main.cpp ram.cpp cpu.cpp
+#### g++ -std=c++2a main.cpp ram.cpp cpu.cpp
 
 Run the program by entering the following command:
 
-./a.out
+#### ./a.out
 
